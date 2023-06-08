@@ -219,7 +219,7 @@ p {
   margin: 0 auto;
 }
 :root {
-  --theme-color: rgb(247, 148, 30);
+  --theme-color: #ED1C24;
   --theme-color-2: rgb(241, 241, 242);
   --color: #fff;
   --color-2: #000;
@@ -394,7 +394,7 @@ p {
 .contact {
   padding: 80px 0;
   background-color: var(--theme-color);
-  
+  color : var(--color);
 }
 .contact-main{
   display: flex;
