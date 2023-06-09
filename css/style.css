@@ -315,9 +315,9 @@ p {
   object-fit: cover;
 }
 .hero-title-top {
-  font-size: 56px;
-  line-height: 69px;
-  margin-bottom: 35px;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 10px;
 }
 .hero-top-btn {
   margin-top: -10px;
@@ -340,12 +340,17 @@ p {
 /* gifts start */
 .gifts-shop{
   padding-top: 100px;
-  padding-bottom: 135px;
 }
 .gifts-title {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.gift-section-title{
+  line-height: 1.2em;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
 }
 .gifts {
   display: flex;
@@ -355,6 +360,7 @@ p {
 }
 
 .gift-section {
+  height: 550px;
   width: 270px;
   margin: 0 45px 50px 45px;
   background-color: #fafafa;
@@ -376,14 +382,17 @@ p {
 }
 .gift-choose {
   padding: 24px;
+  padding-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 165px;
   flex: 1;
 }
-.gift-choose>h3{
-  margin-bottom: 20px;
+.gift-choose h3{
+  margin: 0 auto 10px auto;
+  display: flex;
+  text-align: center;
 }
 .gift-choose a {
   margin-top: auto;
@@ -482,7 +491,7 @@ p {
 .blog-info-section > h3 {
   margin-bottom: 30px;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 35px;
 }
 .blog-info-section > p {
