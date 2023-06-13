@@ -360,7 +360,7 @@ p {
 }
 
 .gift-section {
-  height: 550px;
+  height: 420px;
   width: 270px;
   margin: 0 45px 50px 45px;
   background-color: #fafafa;
@@ -373,7 +373,8 @@ p {
 }
 .gift-section>img{
   width: 100%;
-  height: auto;
+  object-fit: cover;
+  height:40%;
   display: block;
 }
 .gift-section:hover {
